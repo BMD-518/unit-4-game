@@ -1,6 +1,17 @@
+body {
+    width: 100%;
+    background: url(./../images/prism.png);
+    color: papayawhip;
+}
+
+p {
+    font-size: 150%;
+}
+
 h1 {
     font-size: 400%;
     font-weight: 700;
+    text-align: center;
 }
 
 h2 {
@@ -9,8 +20,12 @@ h2 {
 }
 
 .container {
-    border: 25px ridge #21EBE1;
+    border: 25px ridge #BFB686;
     padding: 25px;
 }
 
+.images {
+    position: relative;
+
+}
 
