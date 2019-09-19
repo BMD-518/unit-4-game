@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Collector</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 
@@ -24,12 +24,12 @@
     <div class="container" id="instructions">
         <h2>Instructions</h2>
         <br>
-        <p>At the start of each game you will be given a random number.</p>
+        <p>At the start of each game you will be given a target number.</p>
         <br>
         <p>Below there are four crystals, by clicking each crystal you will add a specific amount of points to your 
         score.</p>
         <br>
-        <p>In order to win the game you must match your total score to the random number. If your score exceeds the random number you will aquire a loss.</p>
+        <p>In order to win the game you must match your total score to the target number. If your score exceeds the target number you will aquire a loss.</p>
         <br>
         <p>The value of each crystal is hidden until it is clicked.</p>
         <br>
@@ -44,22 +44,23 @@
     </div>
 
     <div class="container random-number">
-        <p>Random Number:</p><span id="randomNumber"></span>
+        <p>Target Number:</p><span id="targetNumber"></span>
     </div>
     
     <div class="container" id="crystalImages">
-        <img class="images" src="./assets/images/redcrystal.png" alt="redcrystal">
-        <img class="images" src="./assets/images/yellowcrystal.png" alt="yellowcrystal">
-        <img class="images" src="./assets/images/greencrystal.png" alt="greencrystal">
-        <img class="images" src="./assets/images/bluecrystal.png" alt="bluecrystal">
+        <img class="images" id="image1" src="./assets/images/redcrystal.png" alt="redcrystal">
+        <img class="images" id="image2" src="./assets/images/yellowcrystal.png" alt="yellowcrystal">
+        <img class="images" id="image3" src="./assets/images/greencrystal.png" alt="greencrystal">
+        <img class="images" id="image4" src="./assets/images/bluecrystal.png" alt="bluecrystal">
     </div>
     <div class="container your-score">
         <p>Score: </p><span id="yourScore"></span>
     </div>
     
 </div>
-    
-<link rel="stylesheet" href="./assets/javascript/game.js">
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script rel="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
 </html>
