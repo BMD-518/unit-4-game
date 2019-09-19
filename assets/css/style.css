@@ -1,0 +1,16 @@
+h1 {
+    font-size: 400%;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 200%;
+    font-weight: 600;
+}
+
+.container {
+    border: 25px ridge #21EBE1;
+    padding: 25px;
+}
+
+

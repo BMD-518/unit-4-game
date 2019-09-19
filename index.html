@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+
+<body>
+<div class="container" id="body-container">
+
+    <!-- Create game header for game title -->
+    <div class="container" id="header">
+        <h1>Crystal Collector</h1>
+    </div>
+
+    <!-- Game instructions -->
+    <div class="container" id="instructions">
+        <h2>Instructions</h2>
+        <br>
+        <p>At the start of each game you will be given a random number.</p>
+        <br>
+        <p>Below there are four crystals, by clicking each crystal you will add a specific amount of points to your 
+        score.</p>
+        <br>
+        <p>In order to win the game you must match your total score to the random number. If your score exceeds the random number you will aquire a loss.</p>
+        <br>
+        <p>The value of each crystal is hidden until it is clicked.</p>
+        <br>
+        <p>The crystal values are reset before each round. </p>
+        <br>
+    </div>
+
+    <div class="container win-loss">
+            <p>Wins: <span id="wins"></span></p>
+            <br>
+            <p>Losses: <span id="losses"></span></p>
+    </div>
+
+    <div class="container random-number">
+        <p>Random Number:</p><span id="randomNumber"></span>
+    </div>
+    
+    <div class="container" id="crystalImages">
+        <!-- image links here -->
+    </div>
+    <div class="container your-score">
+        <p>Score: </p><span id="yourScore"></span>
+    </div>
+    
+</div>
+    
+</body>
+</html>
